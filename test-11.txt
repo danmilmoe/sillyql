@@ -1,0 +1,39 @@
+# Checkpoint file 2: # (comment), CREATE, INSERT, PRINT ... ALL, REMOVE, QUIT
+CREATE 281class 3 string string bool emotion person Y/N
+INSERT INTO 281class 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+DELETE FROM 281class WHERE person = Darden
+CREATE 281class 3 string string bool emotion person Y/N
+CREATE cities 5 string string int double bool name state population area is_capital?
+CREATE pets 3 string bool bool name likes_cats? likes_dogs?
+CREATE cartoon_characters 1 string name
+REMOVE cities
+REMOVE pets
+GENERATE FOR 281class hash INDEX ON emotion
+CREATE cities 5 string string int double bool name state population area is_capital?
+INSERT INTO cities 7 ROWS
+Ann_Arbor Michigan 120782 28.69 false
+Lansing Michigan 116020 36.68 true
+Miami Florida 453579 55.25 false
+San_Francisco California 864816 46.87 false
+Albany New_York 98111 21.93 true
+Chicago Illinois 2705000 234 false
+St_Louis Missouri 315685 65.98 false
+PRINT FROM cities 2 name state ALL
+REMOVE cities
+PRINT FROM 281class 2 person emotion WHERE Y/N = true
+CREATE pets 3 string bool bool Name likes_cats? likes_dogs?
+INSERT INTO pets 2 ROWS
+Sith true true
+Paoletti true false
+JOIN pets AND 281class WHERE Name = person AND PRINT 3 Name 1 emotion 2 likes_dogs? 1
+REMOVE pets
+REMOVE 281class
+QUIT

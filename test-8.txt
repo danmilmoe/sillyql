@@ -1,0 +1,11 @@
+# Test file 3
+CREATE places 3 string string bool place state Indian
+CREATE animals 3 string bool bool name likes_cats likes_dogs
+CREATE seasons 1 string season_name
+QUIT
+# Having statements after quit doesn't run
+INSERT INTO places 3 ROWS
+Andrew Graffeo true
+Adam Albren true
+Dan Milmoe false
+PRINT FROM places 2 place Indian

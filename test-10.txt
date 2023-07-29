@@ -1,0 +1,24 @@
+# test 5
+CREATE actors 4 string int string string name age gender famous_movie
+INSERT INTO actors 4 ROWS
+Prabhas 41 Male Bahubali
+Mahesh 43 Male Pokiri
+Stark 45 Male Iron_Man
+Scarlett 38 Female Black_Widow
+CREATE t1 5 bool int string double string is_funny weight first_name height last_name
+INSERT INTO t1 4 ROWS 
+true 200 Prabhas 5.5 Prabhas
+false 400 Johansson 5.4 Scarlett
+false 125 Tony 5.8 Stark
+true 130 billy 6.2 john
+JOIN t1 AND actors WHERE last_name = name AND PRINT 2 first_name 1 age 2
+# Testing other things
+GENERATE FOR t1 hash INDEX ON weight
+INSERT INTO t1 3 ROWS
+true 200 john 5.5 john
+false 100 bert 6.7 mills
+false 100 donald 6.4 ken
+PRINT FROM t1 2 first_name last_name WHERE weight > 100
+DELETE FROM t1 WHERE is_funny = false
+PRINT FROM t1 2 first_name last_name WHERE height > 5.2
+QUIT

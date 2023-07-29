@@ -1,0 +1,12 @@
+# Create Students table
+CREATE Students 3 int string int roll_no name dept_id
+# Insert some students into it
+INSERT INTO Students 5 ROWS
+160651 Dan 2
+160654 Chris 3
+160061 Zoe 2
+160159 Carolyn 3
+160564 Jack 4
+# Removing Students table
+REMOVE Students
+QUIT

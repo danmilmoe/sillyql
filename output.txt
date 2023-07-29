@@ -1,0 +1,39 @@
+% % New table 281class with column(s) emotion person Y/N created
+% Added 8 rows to 281class from position 0 to 7
+% Deleted 2 rows from 281class
+% Error during CREATE: Cannot create already existing table 281class
+% New table cities with column(s) name state population area is_capital? created
+% New table pets with column(s) name likes_cats? likes_dogs? created
+% New table cartoon_characters with column(s) name created
+% Table cities deleted
+% Table pets deleted
+% Created hash index for table 281class on column emotion
+% New table cities with column(s) name state population area is_capital? created
+% Added 7 rows to cities from position 0 to 6
+% name state 
+Ann_Arbor Michigan 
+Lansing Michigan 
+Miami Florida 
+San_Francisco California 
+Albany New_York 
+Chicago Illinois 
+St_Louis Missouri 
+Printed 7 matching rows from cities
+% Table cities deleted
+% person emotion 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Sith happy 
+Sith victorious 
+Printed 5 matching rows from 281class
+% New table pets with column(s) Name likes_cats? likes_dogs? created
+% Added 2 rows to pets from position 0 to 1
+% Name emotion likes_dogs? 
+Sith happy true 
+Sith victorious true 
+Paoletti stressed false 
+Printed 3 rows from joining pets to 281class
+% Table pets deleted
+% Table 281class deleted
+% Thanks for being silly!

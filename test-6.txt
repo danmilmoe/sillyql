@@ -1,0 +1,8 @@
+# Creatng the tables
+CREATE places 3 string string bool place state Indian
+CREATE animals 3 string bool bool name likes_cats likes_dogs
+CREATE seasons 1 string season_name
+# Removing the tables
+REMOVE cities
+REMOVE pets
+QUIT
